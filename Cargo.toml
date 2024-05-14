@@ -1,0 +1,10 @@
+[package]
+name = "ak-commandline"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ak_macros = "0.2.6"
+gtk = { version = "0.8.2", package = "gtk4", features = ["v4_12"] }
